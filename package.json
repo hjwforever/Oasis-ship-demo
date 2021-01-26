@@ -1,0 +1,29 @@
+{
+  "name": "oasis-demo",
+  "version": "0.0.1",
+  "description": "Oasis Demo",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "files": [
+    "types",
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^3.9.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "oasis-engine": "0.1.0",
+    "regenerator-runtime": "^0.13.7",
+    "sweetalert2": "^10.13.3"
+  }
+}
