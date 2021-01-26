@@ -1,4 +1,4 @@
-# Oasis-demo
+# Oasis demo
 
 > - gameController 中添加了 **分数属性\_score** ，飞船每次获得金币都可**增加分数**
 > - 设置了**更多的金币数目**, 可以**上下或者左右移动**
